@@ -16,23 +16,23 @@ while True:
     dj = data['main']['dj']['djname']
     dj_image = data['main']['dj']['djimage']
     thread = data['main']['thread']
-    if dj_image = "Hanyuu":
+    if dj == "Hanyuu-sama":
         large_image = "hanyuu"
-    elif dj_image = "Claud":
+    elif dj == "Claud":
         large_image = "claud"
-    elif dj_image = "apt-get":
+    elif dj == "apt-get":
         large_image = "apt-get"
-    elif dj_image = "kipukun":
+    elif dj == "kipukun":
         large_image = "kipukun"
-    elif dj_image = "Suzubrah":
+    elif dj == "Suzubrah":
         large_image = "suzubrah"
-    elif dj_image = "exci":
+    elif dj == "exci":
         large_image = "exci"
-    elif dj_image = "Wessie":
+    elif dj == "Wessie":
         large_image = "wessie"
-    elif dj_image = "Vin":
+    elif dj == "Vin":
         large_image = "vin"
-    elif dj_image = "ed":
+    elif dj == "ed":
         large_image = "ed"
     rpc.update(state=np, details=dj + " playing at r-a-d.io",large_image=large_image,large_text="Tune in!")
     time.sleep(15)
